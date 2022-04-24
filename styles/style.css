@@ -76,32 +76,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 0px;
   }
 
-.nav{
-grid-column: 2 / 6;
-}
-
-nav {
-background-color: var(--nav-background-color);
-line-height: 3em;
-text-align: center;
-font-size: 1.2em;
-}
-nav > ul {
-list-style-type: none;
-display: flex;
-
-}
-nav a {
-padding:1em;
-min-width: 70px;
-}
-nav a:link, nav a:visited {
-color: var(--nav-link-color);
-}
-nav a:hover {
-color: var(--nav-hover-link-color);
-background-color: var(--nav-hover-background-color);
-}
 
 .social-grid {
 display: grid;
@@ -109,8 +83,12 @@ max-width: 100%;
 grid-template-columns: 1fr;
 background-color: var(--secondary-color);
 grid-gap: 2em
+}
 
-
+.list {
+font-family: var(--heading-font);
+text-align: left;
+font-size: 1.2em;
 }
   
 .copyright{
