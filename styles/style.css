@@ -1,0 +1,77 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Shadows+Into+Light&display=swap');
+
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #2ae4b61c;
+  --secondary-color: #cad835db;
+  --accent1-color: #38ca0e8f;
+  --accent2-color: #9bde88ad;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: 'Montserrat', sans-serif;
+  --paragraph-font: 'Raleway', sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: black;  /* headlines on a white background */ 
+
+  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+
+  --nav-link-color: #396E94;
+  --nav-background-color: #2a87e4ca;
+  --nav-hover-link-color: #E7C24F;
+  --nav-hover-background-color: #396E94;
+}
+
+html {
+  background-color: var(--paragraph-color-on-color);
+}
+
+body {
+  max-width: 940px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+
+.photo-box{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding-bottom: 15px;
+  background-color: var(--nav-background-color);
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.0em;
+  box-shadow: 0 0 8px 11px rgb(155 222 136 / 42%);
+
+}
+
+.photo{
+  grid-column: 1 / 6;
+  grid-row: 1 / 1;
+  padding-left: 1.1em;
+  padding-top: 1.1em;
+  
+}
+
+.box-headline {
+    grid-column: 3 /6;
+    grid-row: 1 / 1;
+    text-align: center;
+    padding-top: 2.1em;
+    padding-left: 0px;
+  }
