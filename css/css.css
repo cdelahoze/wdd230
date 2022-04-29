@@ -39,16 +39,12 @@ body {
   padding: 1em;
 }
 
-img {
-  max-width: 100%;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
 }
 
-.photo-box{
+header {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   padding-bottom: 15px;
@@ -57,27 +53,33 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   font-size: 1.0em;
   box-shadow: 0 0 8px 11px rgb(155 222 136 / 42%);
-
 }
 
-.photo{
-  grid-column: 1 / 6;
+img {
+  max-width: 100%;
+  grid-column: 1 /6;
   grid-row: 1 / 1;
-  padding-left: 1.1em;
+  text-align: center;
   padding-top: 1.1em;
-  
-}
-
-.box-headline {
-    grid-column: 3 /6;
-    grid-row: 1 / 1;
-    text-align: center;
-    padding-top: 2.1em;
-    padding-left: 0px;
+  padding-left: 16px;
   }
 
+  
+h1 {
+  grid-column: 2 /6;
+  grid-row: 1 / 1;
+  text-align: center;
+  padding-top: 2.1em;
+  padding-left: 74px;
+}
 
-.social-grid {
+ul {
+  font-family: var(--heading-font);
+  text-align: left;
+  font-size: 1.2em;
+  }
+
+footer {
 display: grid;
 max-width: 100%;
 grid-template-columns: 1fr;
@@ -85,15 +87,9 @@ background-color: var(--secondary-color);
 grid-gap: 2em
 }
 
-.list {
-font-family: var(--heading-font);
-text-align: left;
-font-size: 1.2em;
-}
-  
 .copyright{
 grid-column: 1 / 3;
-grid-row: 1 / 1;
+grid-row: 1 / 2;
 font-family: Lato, Helvetica, sans-serif;
 text-align: center;
 font-size: 1.2em;
@@ -101,4 +97,12 @@ padding: 1em;
 width: 96%; 
 }
 
+.last-update{
+  font-family: Lato, Helvetica, sans-serif;
+  text-align: center;
+  color: #396E94;
+  font-size: 0.6em;
+  padding: 1em;
+  width: 96%; 
+  }
 
