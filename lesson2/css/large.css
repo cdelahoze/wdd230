@@ -5,4 +5,8 @@ main {
     grid-template-columns: 1fr 1fr 1fr;
     }
 
+.main-title-3{
+    width: 90%;
+    }
+        
 }
