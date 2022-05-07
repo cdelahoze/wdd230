@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WDD 230 | Typography</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="This page has been designed as part of my learning. 
+    This description is temporary while we develop it."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="images/logo-ccf.png" rel="icon"/>
+    <title>Website Planning Document</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/css.css" />
+    <link rel="stylesheet" href="css/lesson3.css" />
+  </head>
+  <body>
+    </head>
+    <body>
+    <header>
+       <h1>Website Planning Document</h1>
+       <h2>Typography</h2>
+       <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="target-audience.html">Target Audience</a>
+        <a href="color-scheme.html">Color Scheme</a>
+        <a href="typography.html">Typography</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    </header>
+    <main>
+        <h4>Typography</h4>
+        
+      <h4>
+        Heading Font: Montserrat, sans-serif  <!-- change this -->
+      </h4>
+      <p>
+        I liked the style of Montserrat because it stretches a bit which makes it more attractive for the site.  <!-- change this -->
+      </p>
+
+      <h4>
+        Paragraph Font: Raleway, sans-serif  <!-- change this -->
+      </h4>
+      <p>
+        This style is considered clean and modern. Also, it tends to be easier to read on computer screens, including smartphones and tablets.  <!-- change this -->
+      </p>
+
+      <h4>
+        Normal paragraph example
+      </h4>
+      <p>
+        The best Whitewater Rafting in Colorado, White Water Rafting Company offers rafting on the Colorado and Roaring Fork Rivers in Glenwood Springs.  Since 1974, we have been family owned and operated, rafting the Shoshone section of Glenwood Canyon and beyond.
+      </p>
+      <h4>
+        Colored paragraph example
+      </h4>
+      <p class="colored">
+        Trips vary from mild and great for families, to trips exclusively for physically fit and experienced rafters.  No matter what type of river adventures you are seeking, White Water Rafting Company can make it happen for you. 
+      </p>
+
+    </main>
+    <footer>
+        <p class="copyright">
+          &copy; <span id="year"></span> | Cristian Moisés De La Hoz Escorcia |<span id= "update" ></span><br/>
+        </p>
+    </footer>
+    <script src="js/lesson3.js"></script>
+    <script>// responsive top navigation
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+        }
+    </script>
+  </body>
+</html>
