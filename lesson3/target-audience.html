@@ -8,11 +8,13 @@
     <meta name="description" content="This page has been designed as part of my learning. 
     This description is temporary while we develop it."/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link href="images/logo-ccf.png" rel="icon"/>
     <title>Website Planning Document</title>
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/css.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
     <link rel="stylesheet" href="css/lesson3.css" />
   </head>
   <body>
@@ -21,24 +23,33 @@
     <header>
        <h1>Website Planning Document</h1>
        <h2>Target Audience</h2>
-       <div class="topnav" id="myTopnav">
+       <nav class="topnav" id="myTopnav">
         <a href="index.html" class="active">Home</a>
         <a href="target-audience.html">Target Audience</a>
         <a href="color-scheme.html">Color Scheme</a>
         <a href="typography.html">Typography</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <a href="javascript:void(0);" class="icon"  id="demo">
+          <span class="material-symbols-outlined">menu</span>
         <i class="fa fa-bars"></i>
         </a>
-    </div>
+       </nav>
     </header>
     <main>
         <h4>Description of the target audience</h4>
-
         <p>Traders from the northwestern region of the Department of Cundinamarca.</p>
         <p>General public interested in starting a business.</p>
         <p>Technical students, technologists and professionals who wish to provide their services through their own companies.</p>
-
         <h4>Personas</h4>
+        <img src="images/person1.jpg"  alt= "logo image"> 
+        <p>Camilo Cortés Sánchez, 40 years old, Marketing and Sales technician of the National 
+          Apprenticeship Service, owner of a food retail establishment. 
+          His aspiration is to grow his business to turn it into a supermarket.</p>
+
+        <img src="images/person2.jpg"  alt= "logo image">
+         <p>Juan José Vasquez Jimenez, 24 years old, Agricultural Engineer, owner of a food collection 
+           center produced by peasants in the region. He advises small farmers on the 
+           cultivation and distribution of their products.</p>
+
         <p><br>It is perceived that 70% of website users are between 20 and 50 years old, 10% would be students under 20 years old, and the remaining 20%
            ​​are over 50 years old. It is estimated that the proportion of men and women is equal.</br>
 
@@ -70,7 +81,6 @@
            <br>Registration and login as a user.</br>
           
            <br>Legal and juridical information.</br></p>
-
     </main>
     <footer>
         <p class="copyright">
@@ -78,15 +88,5 @@
         </p>
     </footer>
     <script src="js/lesson3.js"></script>
-    <script>// responsive top navigation
-        function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-        }
-    </script>
   </body>
 </html>
