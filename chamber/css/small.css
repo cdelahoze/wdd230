@@ -1,0 +1,266 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Shadows+Into+Light&display=swap');
+
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #00171F;
+  --secondary-color: #003459;
+  --accent1-color: #007EA7;
+  --accent2-color: #00A8E8;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: 'Montserrat', sans-serif;
+  --paragraph-font: 'Raleway', sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: black;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: black; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: black;
+  --nav-link-color: #396E94;
+  --nav-background-color: #2ae4b61c;
+  --nav-hover-link-color: #E7C24F;
+  --nav-hover-background-color: #396E94;
+}
+
+html {
+background-color: var(--paragraph-color-on-color);
+}
+
+body {
+max-width: 940px;
+margin: 0 auto;
+background-color: white;
+padding: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: var(--heading-font);
+color: var(--paragraph-color-on-white);
+}
+
+p {
+font-family: var(--paragraph-font);
+color: var(--headline-color-on-white);
+}
+
+header {
+  display: grid;
+  padding-bottom: 15px;
+  background-color: var(--secondary-color);
+  line-height: 1em;
+  text-align: center;
+  font-size: 1.1vw;
+  }
+
+.wrapper{
+  display:flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.wrapper > div {
+  background-color: var(--secondary-color);
+  color: white;
+  text-align: center;
+  line-height: 9px;
+  font-size: 0.8vw;
+}
+
+.logo-image{
+  flex: 10%;
+}
+
+.chamber{
+  flex: 30%;
+}
+
+.top-nav
+{
+  flex: 45%;
+  padding-top: 31px;
+}
+
+.social-red {
+  flex: 10%;
+  padding-top: 31px;
+}
+
+img{
+  width: 100%;
+  background-color: var(--accent2-color);
+}
+
+.img-red{
+  width: 30%;
+  background-color: var(--secondary-color);
+}
+
+h1 {
+text-align: center;
+color:white;
+padding-top: 0.5em;
+}
+
+h2 {
+text-align: center;
+color:white
+}
+  
+h3{
+  text-align: center;
+  color:white;
+  background-color: var(--accent1-color);
+  font-size: 0.8vw;
+  margin-block-start: 1em;
+  margin-block-end: 0em;
+  padding-block: 9px;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  text-align: center;
+  height: 800px;
+}
+
+.flex-item-left {
+  background-color: #e5b7b7;
+  padding: 10px;
+  flex: 15%;
+}
+
+.flex-item-left1 {
+  background-color: #e05959;
+  padding: 10px;
+  flex: 10%;
+  height: 33%;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+.flex-item-left2 {
+  background-color: #e05959;
+  padding: 10px;
+  flex: 10%;
+  height: 33%;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+.flex-item-left3 {
+  background-color: #e05959;
+  padding: 10px;
+  flex: 10%;
+  height: 34%;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+
+.flex-item-center {
+  background-color: #7ec1de;
+  padding: 10px;
+  flex: 50%;
+}
+
+
+.flex-item-center1 {
+  background-color: #d0de7e;
+  padding: 10px;
+  flex: 50%;
+  height: 60%;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+.flex-item-center2 {
+  background-color: #deb67e;
+  padding: 10px;
+  flex: 50%;
+  height: 40%;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+.flex-item-right {
+  background-color: rgb(185, 214, 242);
+  padding: 10px;
+  flex: 15%;
+}
+
+.flex-item-right1 {
+  background-color: rgb(105, 163, 220);
+  padding: 10px;
+  flex: 10%;
+  height: 100%;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+.flex-item-right2 {
+  background-color:  rgb(64, 134, 204);
+  padding: 10px;
+  flex: 10%;
+  height: 33%;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+.flex-item-right3 {
+  background-color:  rgb(64, 134, 204);
+  padding: 10px;
+  flex: 10%;
+  height: 33%;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+.flex-item-right4 {
+  background-color:  rgb(64, 134, 204);
+  padding: 10px;
+  flex: 10%;
+  height: 34%;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+
+
+footer {
+display: grid;
+max-width: 100%;
+grid-template-columns: 1fr;
+background-color: var(--secondary-color);
+grid-gap: 2em
+}
+
+.copyright{
+grid-column: 1 / 3;
+grid-row: 1 / 2;
+font-family: paragraph-font;
+text-align: center;
+font-size: 0.8em;
+padding: 1em;
+width: 96%; 
+color:white
+}
