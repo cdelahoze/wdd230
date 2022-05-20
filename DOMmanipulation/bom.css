@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 35px;
+	font-family: Acme, Arial, sans-serif;
+}
+
+h1 {
+	display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+main {
+	margin: 0.5rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	padding: 0.5rem;
+	background-color: #bed;
+	display: grid;
+	grid-template-columns: 1fr;
+	width: 95%;
+}
+
+input,
+button {
+	padding: 0.35rem;
+	margin-left: 1rem;
+	font-size: 1.1rem;
+
+}
+
+input {
+	width: 200px;
+}
+
+label {
+	font-size: 1.2rem;
+	padding: 1rem;
+}
+.listcontainer {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.list {
+	margin: 0.2rem;
+
+}
+
+ul {
+	margin: 1rem;
+	list-style: none;
+}
+
+li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 0.5rem;
+	font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 32.5em) {
+	h1 {
+		font-size: 4rem;
+	}
+
+	main {
+		width: 480px;
+	}
+}
+
