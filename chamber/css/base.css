@@ -47,7 +47,6 @@ color: var(--paragraph-color-on-white);
 
 p {
 font-family: var(--paragraph-font);
-color: var(--headline-color-on-white);
 }
 
 /* header manipulations */
@@ -55,13 +54,22 @@ color: var(--headline-color-on-white);
 header {
   display: grid;
   padding-bottom: 15px;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   line-height: 1em;
   text-align: center;
   font-size: 1.1vw;
   justify-content: center;
   width: 100%;
   }
+
+  #banner{
+    background-color:var(--accent2-color);
+    color: var(--secondary-color);
+    font-size: 2em;
+    width: 100%;
+    padding: 1em;
+    display: none;
+}
 
 .wrapper{
   display:flex;
@@ -70,7 +78,7 @@ header {
 }
 
 .wrapper > div {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   color: white;
   text-align: center;
   line-height: 9px;
@@ -96,13 +104,13 @@ header {
   padding-top: 31px;
 }
 
-img{
+.img-log{
   width: 100%;
-  background-color: var(--accent2-color);
+  padding: 10px;
 }
 
 .img-red{
-  width: 30%;
+  width: 40%;
   background-color: var(--secondary-color);
 }
 
@@ -220,113 +228,261 @@ main{
 }
 
 
-.container div:nth-of-type(1) {
-  background-color: #e05959;
-  padding: 10px;
-  border: 1px solid #CCC;
-  border-radius: 1em;
-  margin: 5px;
-}
-
-.container div:nth-of-type(2) {
-  background-color: #e05959;
-  padding: 10px;
-  border: 1px solid #CCC;
-  border-radius: 1em;
-  margin: 5px;
-}
-
-.container div:nth-of-type(3) {
-  background-color: #e05959;
-  padding: 10px;
-  border: 1px solid #CCC;
-  border-radius: 1em;
-  margin: 5px;
-}
-
-.container div:nth-of-type(4) {
-  background-color: #d0de7e;
-  padding: 10px;
-  border: 1px solid #CCC;
-  border-radius: 1em;
-  margin: 5px;
-}
-
-.container div:nth-of-type(5) {
-  background-color: #deb67e;
-  padding: 10px;
-  border: 1px solid #CCC;
-  border-radius: 1em;
-  margin: 5px;
-}
-
-.container div:nth-of-type(6) {
-  background-color: rgb(105, 163, 220);
-  padding: 10px;
-  border: 1px solid #CCC;
-  border-radius: 1em;
-}
-
-.container div:nth-of-type(6) .right2 {
-  background-color:  rgb(64, 134, 204);
-  padding: 10px;
-  border: 1px solid #CCC;
-  border-radius: 1em;
-  height: 32%;
-}
-
-.container div:nth-of-type(6) .right3 {
-  background-color:  rgb(64, 134, 204);
-  padding: 10px;
-  border: 1px solid #CCC;
-  border-radius: 1em;
-  height: 32%;
-}
-
-.container div:nth-of-type(6) .right4 {
-  background-color:  rgb(64, 134, 204);
-  padding: 10px;
-  border: 1px solid #CCC;
-  border-radius: 1em;
-  height: 32%;
-}
-
 /* Responsive layout - makes a one column-layout instead of two-column layout */
+
 @media only screen and (max-width: 40.5em){
   .container {
     display: flex;
     flex-direction: column;
-    height: 1250px;
+    height: 100%;
+    color: rgb(204, 199, 50);
+    font-size: 30px;
+    font-weight: bold;
   }
 
+  /* Image */
 .container div:nth-of-type(4){
   order: 1;
-  height: 30%;
+  border-radius: 0.5em;
+  margin: 5px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
   }
-  
+
+  .landscape{
+    height: 180px;
+    width: 100%;
+  }
+
+.container div:nth-of-type(4) .welcome{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: var(--secondary-color);
+  font-weight: bold;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 6vw;
+}
+
+
+.container div:nth-of-type(4) .button {
+  background-color: var(--accent1-color);
+  border: none;
+  color: var(--primary-color);
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  border: 1px solid var(--accent1-color);
+  border-radius: 1em;
+  }
+
+      
+/* Ribbon */
 .container div:nth-of-type(1){
   order: 2;
-  height: 30%;
-  }
+  height: 200px;
+  background-color: var(--secondary-color);
+  padding: 10px;
+  margin: 5px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.container div:nth-of-type(1) .title-1{
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  left: 0% ;
+  font-size: 2.5vw;
+  color: white;
+}
+
+.container div:nth-of-type(1) .text-1{
+  width: 100%;
+  position: absolute;
+  top: 45%;
+  left: 0%;
+  font-size: 2.2vw;
+  color: white;
+  font-weight: 500;
+}
+.container div:nth-of-type(1) .text-2{
+  width: 80%;
+  position: absolute;
+  bottom: 0px;
+  top: 65%;
+  left: 40%;
+  font-size: 2.5vw;
+  color: rgb(210, 173, 22);
+  font-weight: 500;
+}
+
   
+/* Wather */
 .container div:nth-of-type(2){
   order: 3;
   height: 30%;
-  }
+  background-color: var(--accent2-color);
+  padding: 10px;
+  margin: 5px;
+  width: 70%;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
 
+.container div:nth-of-type(2) .img-weather{
+width: 40%;
+position: absolute;
+top: 40px;
+left: 10px;
+}
+
+.container div:nth-of-type(2) .temp{
+width: 40%;
+position: absolute;
+top: 10%;
+right: 10%;
+font-size: 30px;
+color: white;
+}
+
+.container div:nth-of-type(2) .cloudy{
+width: 60%;
+position: absolute;
+top: 40%;
+left: 40%;
+font-size: 20px;
+color: white;
+}
+.container div:nth-of-type(2) .wind{
+width: 80%;
+position: absolute;
+bottom: 0%;
+left: 20%;
+color: white;
+font-weight: 300;
+font-size: 20px;
+}
+
+
+/* Join */
 .container div:nth-of-type(3){
   order: 4;
-  height: 30%;
+  background-color: var(--secondary-color);
+  padding: 10px;
+  margin: 5px;
+  height: 250px;
+  width: 100%;
+  display: none;
   }
 
+
+  /* News Relase */
 .container div:nth-of-type(5){
   order: 5;
   height: 30%;
+  background-color: var(--secondary-color);
+  padding: 10px;
+  margin: 5px;
+  width: 100%;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
   }
 
+  .container div:nth-of-type(5) .text-1 {
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+  /* Spot Light */
 .container div:nth-of-type(6){
   order: 6;
-  height: 100%;
+  height: 500px;
+  background-color: var(--secondary-color);
+  padding: 10px;
+  }
+
+  .container div:nth-of-type(6) .right2 {
+    background-color: var(  --accent1-color);
+    height: 235px;
+    margin-left: auto;
+    width: 100%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  }
+  
+  .container div:nth-of-type(6) .right2 .img-spotlight{
+  width: 25%;
+  position: absolute;
+  top: 40%;
+  left: 10px;
+  }
+  
+  .container div:nth-of-type(6) .right2 .text-1 {
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  top: 20%;
+  left: 10px;
+  }
+  
+  .container div:nth-of-type(6) .right3 {
+  background-color: var(  --accent1-color);
+  height: 235px;
+  margin-right: auto;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  }
+
+  .container div:nth-of-type(6) .right3 .img-spotlight{
+  width: 25%;
+  position: absolute;
+  top: 40%;
+  left: 10px;
+  }
+  
+  .container div:nth-of-type(6) .right3 .text-1 {
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  top: 20%;
+  left: 10px;
+  }
+    
+  
+  .container div:nth-of-type(6) .right4 {
+    background-color:  rgba(64, 134, 204, 0);
+    padding: 0px;
+    border: 1px solid rgba(204, 204, 204, 0);
+    border-radius: 1em;
+    height: 0%;
+    color: #ffffff00;
+    display: none;
   }
 
 /* this is the footer css control */
@@ -336,7 +492,7 @@ footer {
   max-width: 100%;
   grid-template-columns: repeat(1fr);
   grid-template-rows: (4, 1fr);
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   grid-template-rows: 40% 20% 20% 20%;
   }
   
@@ -360,10 +516,12 @@ footer {
 .logo-footer{
   grid-column: 1 / 2; 
   grid-row: 1 / 2;
+  width: 35%;
+  background-color: var(--primary-color);
   display: block;
-  margin: 0px auto;
-  width: 40%;
-  background-color: var(--secondary-color);
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .copyright2{
