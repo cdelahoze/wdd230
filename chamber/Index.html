@@ -59,6 +59,7 @@
             <h5 class="temp">33°C</h3>
             <h5 class="cloudy">Partly Cloudy</h3>
             <h6 class="wind">Wind Speed: 2.5 km/h</h6>
+            <h6 class="wind-ch">Wind Chill: <span id="wind-ch"></span></h6>
           </div>
             <div>
               <button class="join-us">Join Us!</button>
@@ -67,8 +68,18 @@
             </div>
           </div>
           <div>
-            <img src="images/facatativa-pan.jpg" alt="facatativa landscape" class="landscape">
+            <img  srcset="images/wdd230-org.webp 320w,
+                          images/wdd230-org.webp 480w,
+                          images/wdd230-org.webp 800w"
+                  sizes="(max-width: 320px) 280px,
+                          (max-width: 480px) 440px,
+                          800px"
+                  src="images/wdd230-org.webp" alt="facatativa landscape" class="landscape">
+
             <div class="welcome">Welcome to Facatativá</div>
+            <p class="small">small</p>
+            <p class="medium">medium</p>
+            <p class="large">large</p>
             <button class="button">Join the Chamber</button>
           </div>
           <div>News Release
@@ -112,5 +123,6 @@
         </p>
     </footer>
     <script src="js/js.js"></script>
+    <script src="js/windchill.js"></script>
    </body>
 </html>

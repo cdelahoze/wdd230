@@ -30,7 +30,10 @@ function myFunction() {
 }
 
 const dia = new Date();
-if (dia.getDay() == 3) {
+if (dia.getDay() == 1) {
     document.querySelector('#banner').style.display="block";
 }
 
+if (dia.getDay() == 4) {
+    document.querySelector('#banner').style.display="block";
+}

@@ -234,10 +234,11 @@ main{
   .container {
     display: flex;
     flex-direction: column;
-    height: 100%;
     color: rgb(204, 199, 50);
     font-size: 30px;
     font-weight: bold;
+    width: 95%;
+    height: 1250px;
   }
 
   /* Image */
@@ -266,6 +267,32 @@ main{
   font-size: 6vw;
 }
 
+.container div:nth-of-type(4) .small{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  color: red;
+  font-weight: bold;
+  font-size: 4vw;
+}
+
+.container div:nth-of-type(4) .medium{
+  color: rgba(255, 0, 0, 0);
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-weight: bold;
+  font-size: 0vw;
+}
+  
+.container div:nth-of-type(4) .large{
+  color: rgba(255, 0, 0, 0);
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-weight: bold;
+  font-size: 0vw;
+}
 
 .container div:nth-of-type(4) .button {
   background-color: var(--accent1-color);
@@ -345,7 +372,7 @@ main{
 }
 
 .container div:nth-of-type(2) .img-weather{
-width: 40%;
+width: 35%;
 position: absolute;
 top: 40px;
 left: 10px;
@@ -356,7 +383,7 @@ width: 40%;
 position: absolute;
 top: 10%;
 right: 10%;
-font-size: 30px;
+font-size: 5vw;
 color: white;
 }
 
@@ -365,19 +392,27 @@ width: 60%;
 position: absolute;
 top: 40%;
 left: 40%;
-font-size: 20px;
+font-size: 3.5vw;
 color: white;
 }
 .container div:nth-of-type(2) .wind{
 width: 80%;
 position: absolute;
-bottom: 0%;
-left: 20%;
+top: 55%;
+left: 25%;
 color: white;
 font-weight: 300;
-font-size: 20px;
+font-size: 2.6vw;
 }
-
+.container div:nth-of-type(2) .wind-ch{
+  width: 80%;
+  position: absolute;
+  top: 65%;
+  left: 25%;
+  color: white;
+  font-weight: 300;
+  font-size: 2.6vw;
+  }
 
 /* Join */
 .container div:nth-of-type(3){
