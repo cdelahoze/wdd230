@@ -12,13 +12,13 @@ const upDate3 = new Date();
 document.querySelector('#update3').textContent = upDate3.toLocaleString();
 
 const upDate2 = new Date();
-const opciones2 = { weekday: 'long', year: 'numeric', month: 'short', day: 'numeric' }
+const opciones2 = { weekday: 'long', year: 'numeric', month: 'short', day: 'numeric' };
 document.querySelector('#update2').textContent = upDate2.toLocaleDateString('en-au', opciones2);
 
 
 // make onclick of the top nav
 
-document.getElementById("demo").onclick = function() {myFunction()};
+document.getElementById("#demo").onclick = function() {myFunction();};
 
 function myFunction() {
     var x = document.getElementById("myTopnav");
@@ -29,11 +29,14 @@ function myFunction() {
     }
 }
 
-const dia = new Date();
+// banner 
+
+const dia = new Date(); {
 if (dia.getDay() == 1) {
     document.querySelector('#banner').style.display="block";
 }
 
 if (dia.getDay() == 4) {
     document.querySelector('#banner').style.display="block";
+}
 }

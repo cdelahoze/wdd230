@@ -88,7 +88,7 @@
 .container div:nth-of-type(2) .cloudy{
     width: 60%;
     position: absolute;
-    top: 9vw;
+    top: 10vw;
     left: 5vw;
     font-size: 1.5vw;
     color: white;
@@ -133,7 +133,6 @@
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
-    position: center;
     border-radius: 1em;
 }
 
@@ -166,7 +165,6 @@
     left: 10px;
     color: var(--secondary-color);
     font-weight: bold;
-    background-color: transparent;
     border-color: transparent;
     font-size: 2em;
   }
@@ -177,8 +175,6 @@
     left: 10%;
     color: red;
     font-weight: bold;
-    background-color: transparent;
-    border-color: transparent;
     font-size: 4vw;
   }
 

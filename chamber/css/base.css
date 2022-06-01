@@ -42,11 +42,6 @@ padding: 1em;
 
 h1, h2, h3, h4, h5, h6 {
 font-family: var(--heading-font);
-color: var(--paragraph-color-on-white);
-}
-
-p {
-font-family: var(--paragraph-font);
 }
 
 /* header manipulations */
@@ -125,13 +120,13 @@ text-align: center;
 color:white
 }
   
-h3{
+#update2{
   text-align: center;
   color:white;
-  background-color: var(--accent1-color);
   font-size: 1.8vw;
   margin-block-start: 1em;
   margin-block-end: 0em;
+  background-color: var(--accent2-color);
   padding-block: 9px;
   font-weight: normal;
 }
@@ -185,7 +180,7 @@ h3{
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 40.5em) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -263,7 +258,6 @@ main{
   color: var(--secondary-color);
   font-weight: bold;
   background-color: transparent;
-  border-color: transparent;
   font-size: 6vw;
 }
 
@@ -525,10 +519,9 @@ font-size: 2.6vw;
 footer {
   display: grid;
   max-width: 100%;
-  grid-template-columns: repeat(1fr);
-  grid-template-rows: (4, 1fr);
-  background-color: var(--primary-color);
+  grid-template-columns: 100%;
   grid-template-rows: 40% 20% 20% 20%;
+  background-color: var(--primary-color);
   }
   
 .contact{
@@ -576,5 +569,4 @@ footer {
   font-size: 0.0em;
 
 }
-
 }
