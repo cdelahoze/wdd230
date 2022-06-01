@@ -18,16 +18,16 @@ document.querySelector('#update2').textContent = upDate2.toLocaleDateString('en-
 
 // make onclick of the top nav
 
-document.getElementById("#demo").onclick = function() {myFunction();};
-
 function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
-        x.className += " responsive";
+      x.className += " responsive";
     } else {
-        x.className = "topnav";
+      x.className = "topnav";
     }
 }
+
+document.getElementById('demo').addEventListener('click', myFunction);
 
 // banner 
 
