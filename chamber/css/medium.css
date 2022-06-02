@@ -6,7 +6,7 @@
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(42, 1fr);
     max-width: 100%;
-    height: 1250px;
+    height: 2000px;
     color: rgb(204, 199, 50);
     font-size: 25px;
     font-weight: bold;

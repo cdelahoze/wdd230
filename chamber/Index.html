@@ -67,14 +67,11 @@
             </div>
           </div>
           <div>
-            <img  srcset="images/wdd230-org.webp 320w,
-                          images/wdd230-org.webp 480w,
-                          images/wdd230-org.webp 800w"
-                  sizes="(max-width: 320px) 280px,
-                          (max-width: 480px) 440px,
-                          800px"
-                  src="images/wdd230-org.webp" alt="facatativa landscape" class="landscape">
-
+            <picture>
+              <source media="(min-width:64.5em)" srcset="images/wdd230-org-l.webp" >
+              <source media="(min-width:40.5em)" srcset="images/wdd230-org-m.webp">
+              <img src="images/wdd230-org-s.webp" alt="facatativa landscape" class="landscape">
+            </picture>
             <div class="welcome">Welcome to Facatativá</div>
             <p class="small">small</p>
             <p class="medium">medium</p>
