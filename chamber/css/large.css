@@ -387,7 +387,7 @@ footer {
     }
     
     .copyright2 {
-        font-size: 0.0em;
+        display: none;
       
       }
 
