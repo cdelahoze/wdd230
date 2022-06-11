@@ -356,7 +356,8 @@ position: absolute;
 top: 10%;
 right: 10%;
 font-size: 5vw;
-color: white;
+font-weight: 1000;
+color:  var(--secondary-color);
 }
 
 .container div:nth-of-type(2) .cloudy{
@@ -365,15 +366,16 @@ position: absolute;
 top: 40%;
 left: 40%;
 font-size: 3.5vw;
-color: white;
+font-weight: 900;
+color:  var(--secondary-color);
 }
 .container div:nth-of-type(2) .wind{
 width: 80%;
 position: absolute;
 top: 55%;
 left: 25%;
-color: white;
-font-weight: 300;
+color:  var(--secondary-color);
+font-weight: 600;
 font-size: 2.6vw;
 }
 .container div:nth-of-type(2) .wind-ch{
@@ -381,8 +383,8 @@ font-size: 2.6vw;
   position: absolute;
   top: 65%;
   left: 25%;
-  color: white;
-  font-weight: 300;
+  color:  var(--secondary-color);
+  font-weight: 600;
   font-size: 2.6vw;
   }
 
@@ -425,7 +427,7 @@ font-size: 2.6vw;
   height: 500px;
   background-color: var(--secondary-color);
   padding: 10px;
-  color: rgb(193, 145, 2);
+  color: var(--primary-color);
   }
 
   .container div:nth-of-type(6) .right2 {
@@ -433,7 +435,7 @@ font-size: 2.6vw;
     height: 235px;
     margin-left: auto;
     width: 100%;
-    color: rgb(193, 145, 2);
+    color: var(--primary-color);
   position: relative;
   display: inline-block;
   text-align: center;
@@ -461,7 +463,7 @@ font-size: 2.6vw;
   height: 235px;
   margin-right: auto;
   width: 100%;
-  color: rgb(193, 145, 2);
+  color: var(--primary-color);
   position: relative;
   display: inline-block;
   text-align: center;

@@ -34,6 +34,7 @@
     left: 0% ;
     font-size: 2.2vw;
     color: white;
+
 }
 
 .container div:nth-of-type(1) .text-1{
@@ -75,44 +76,48 @@
 .container div:nth-of-type(2) .img-weather{
   width: 40%;
   position: absolute;
-  top: 40px;
+  top: 20px;
   left: 10px;
 }
 
 .container div:nth-of-type(2) .temp{
   width: 40%;
   position: absolute;
-  top: 8%;
+  top: 5%;
   right: 10%;
   font-size: 4vw;
-  color: white;
+  color:  var(--secondary-color);
+  font-weight: 600;
+  -webkit-text-stroke: 1px var(--secondary-color);
+
 }
 
 .container div:nth-of-type(2) .cloudy{
   width: 60%;
   position: absolute;
-  top: 45%;
-  left: 30%;
+  top: 40%;
+  left: 40%;
   font-size: 2.2vw;
-  color: white;
+  font-weight: 800;
+  color:  var(--secondary-color);
 }
 .container div:nth-of-type(2) .wind{
   width: 80%;
   position: absolute;
-  top: 60%;
-  left: 20%;
-  color: white;
-  font-size: 1.8vw;
-  font-weight: 300;
+  top: 50%;
+  left: 25%;
+  color:  var(--secondary-color);
+  font-size: 1.5vw;
+  font-weight: 600;
 }
 .container div:nth-of-type(2) .wind-ch{
   width: 80%;
   position: absolute;
-  top: 70%;
-  left: 15%;
-  color: white;
-  font-size: 1.8vw;
-  font-weight: 300;
+  top: 62%;
+  left: 20%;
+  color:  var(--secondary-color);
+  font-size: 1.5vw;
+  font-weight: 600;
 }
 
 /* Join */
@@ -237,7 +242,7 @@ margin-bottom: 10px;
   position: relative;
   display: inline-block;
   text-align: center;
-  color: rgb(193, 145, 2);
+  color: var(--primary-color);
   }
   
   .container div:nth-of-type(6) .right2 .img-spotlight{
@@ -268,7 +273,7 @@ margin-bottom: 10px;
   position: relative;
   display: inline-block;
   text-align: center;
-  color: rgb(193, 145, 2);
+  color: var(--primary-color);
   }
   
   .container div:nth-of-type(6) .right3 .img-spotlight{
