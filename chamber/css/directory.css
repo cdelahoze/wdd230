@@ -1,0 +1,130 @@
+
+html {
+    margin: auto;
+}
+
+body {
+    font-size: 16px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align:center;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+}
+
+main{
+    display: flex;
+    margin: 10px;
+  }
+
+.menu {
+	margin: 1rem auto;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+}
+
+div .cards,
+section {
+	margin: 0.75rem;
+    height: 95%;
+    width: 95%;
+
+
+}
+
+section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #ccc;
+    margin: 0.25rem;
+    align-items: center;
+
+
+
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: flex;
+	align-items: center;
+}
+
+.grid section {
+	flex-direction: column;
+	text-align: center;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.list section {
+	flex-direction: row;
+	justify-content: left;
+}
+
+.list section > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+}
+
+section h3 {
+	font-size: 1.5rem;
+}
+
+section a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.9rem;
+}
+
+section img {
+	height: 75px;
+	max-width: 100%; /* Images are jerks - Seattle*/
+}
+
+@media (min-width: 700px) {
+	.list section img {
+		display: block;
+	}
+}
+
+
+@media (min-width: 20em)  {
+    div .cards,
+    section{ 
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 96%;
+        position: relative;
+        justify-content: center;
+    }
+}
+@media (min-width: 51em) {
+    div .cards,
+    section{ 
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 96%;
+        margin: 1em;
+    }
+}
+
