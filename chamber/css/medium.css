@@ -372,7 +372,157 @@ footer {
 
         display: none;
       }
-    
+
+
+
+/* discovery page css */
+
+
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color);
+  padding: 1.1em;
+}
+
+.title{
+color: var(--secondary-color); 
+}
+
+.box-grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(15, 1fr);
+  padding-bottom: 15px;
+}
+
+.banner {
+  grid-column: 1 / 10;
+  grid-row: 1 / 4;
+
+}
+
+.banner img{
+  width: 100%;
+}
+
+.box-section {
+  grid-column: 2 / 9;
+  grid-row: 2 / 7;
+  background: #88c0de54;
+  padding-top: 1.5em;
+}
+
+.box-headline {
+  grid-column: 2 / 9;
+  grid-row: 2 / 3;
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+.box-paragraph {
+  grid-column: 6 /9;
+  grid-row: 3 / 7;
+  padding-top: 3em;
+  justify-self: start;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.box-paragraph p{
+  text-align: justify;
+  font-size: 1.6vw;
+}
+
+.box-img {
+  justify-self: start;
+  grid-column: 2 / 6;
+  grid-row: 3 / 7;
+  width: 100%;
+  padding-top: 5em;
+  padding-left: 1.6em;
+  
+}
+
+/* dicovery page part 2 */
+
+
+.main-paragraph-1{
+grid-column: 1/5;
+grid-row: 7/10;
+padding-top: 0.8em;
+padding-left: 25px;
+padding-right: 25px;
+text-align: justify;
+font-size: 1.6vw;
+}
+
+.main-paragraph-1 p{
+text-align: justify;
+font-size: 1.6vw;
+}
+
+.main-right-img{
+grid-column: 6/10;
+grid-row: 7/10;
+width: 100%;
+padding-top: 1.5em;
+padding-left: 1.6em;
+}
+
+.img-efect{
+width: 100%;
+}
+
+.main-paragraph-2{
+grid-column: 6/10;
+grid-row: 10/13;
+padding-top: .1em;
+padding-left: 25px;
+padding-right: 25px;
+text-align: justify;
+}
+
+.main-paragraph-2 p{
+text-align: justify;
+font-size: 1.6vw;
+}
+
+.main-left-img{
+grid-column: 1/6;
+grid-row: 10/13;
+width: 80%;
+padding-top: 0.5em;
+padding-left: 0.6em;
+}
+
+
+.main-paragraph-3{
+grid-column: 1/5;
+grid-row: 13/16;
+padding-top: 0.2em;
+padding-left: 25px;
+padding-right: 25px;
+text-align: justify;
+font-size: 1.6vw;
+}
+
+.main-paragraph-3 p{
+text-align: justify;
+font-size: 1.6vw;
+}
+
+.main-right-img-3{
+grid-column: 5/9;
+grid-row: 13/16;
+width: 100%;
+padding-top: 1.5em;
+padding-left: 1.6em;
+}
+
+#img-box{
+  width: 100%;
+}
+      
 }
     
 

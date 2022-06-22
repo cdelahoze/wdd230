@@ -206,6 +206,17 @@ font-size: 2vw;
   }
 }
 
+/* efect hover */
+  
+#img-box:hover{
+  box-shadow: 0 0 50px var(--secondary-color);
+  width: 100%;
+}
+
+.img-efect:hover{
+  box-shadow: 0 0 50px var(--secondary-color);
+  width: 100%;
+}
 
 /* this section modificate main */
 
@@ -552,4 +563,150 @@ footer {
 
   display: none;
 }
+
+}
+
+/* discovery page css */
+
+@media only screen and (max-width: 40.5em){
+
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color);
+  padding: 1.1em;
+}
+
+.title{
+color: var(--secondary-color); 
+}
+
+.box-grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(13, 1fr);
+  padding-bottom: 15px;
+  height: 390vw;
+  width: 100%;
+}
+
+.banner {
+  grid-column: 1 / 10;
+  grid-row: 1 / 2;
+
+}
+
+.banner img{
+  width: 100%;
+}
+
+.box-section {
+  grid-column: 2 / 9;
+  grid-row: 2 / 5;
+  background: #88c0de54;
+  padding-top: 0.5em;
+}
+
+.box-headline {
+  grid-column: 2 / 9;
+  grid-row: 2 / 3;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+.box-paragraph {
+  grid-column: 3 /8;
+  grid-row: 2 / 3;
+  padding-top: 4em;
+  justify-self: start;
+  width: 100%;
+}
+
+.box-paragraph p{
+  text-align: justify;
+  font-size: 2vw;
+}
+
+.box-img {
+  justify-self: start;
+  grid-column: 3 / 8;
+  grid-row: 3 / 5;
+  width: 100%;
+  padding-top: 1em;
+
+}
+
+/* dicovery page part 2 */
+
+
+.main-paragraph-1{
+grid-column: 2/9;
+grid-row: 5/6;
+padding-top: 0.8em;
+}
+
+.main-paragraph-1 p{
+text-align: justify;
+font-size: 2vw;
+}
+
+.main-right-img{
+grid-column: 2/9;
+grid-row: 6/8;
+width: 100%;
+padding-top: 0.5em;
+}
+
+.img-efect{
+width: 100%;
+}
+
+.main-paragraph-2{
+grid-column: 2/9;
+grid-row: 8/9;
+padding-top: 0.1em;
+padding-left: 25px;
+padding-right: 25px;
+text-align: justify;
+}
+
+.main-paragraph-2 p{
+text-align: justify;
+font-size: 2vw;
+}
+
+.main-left-img{
+grid-column: 2/9;
+grid-row: 9/11;
+width: 100%;
+padding-top: 0.5em;
+padding-left: 0.6em;
+}
+
+
+.main-paragraph-3{
+grid-column: 2/9;
+grid-row: 11/12;
+padding-top: 0.2em;
+padding-left: 25px;
+padding-right: 25px;
+text-align: justify;
+font-size: 1.6vw;
+}
+
+.main-paragraph-3 p{
+text-align: justify;
+font-size: 2vw;
+}
+
+.main-right-img-3{
+grid-column: 2/9;
+grid-row: 12/14;
+width: 100%;
+padding-top: 1.5em;
+}
+
+#img-box{
+  width: 100%;
+}
+
 }
