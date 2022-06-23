@@ -1,0 +1,98 @@
+@import url("http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin");
+
+:root {
+	--back: rgb(35, 65, 131);
+  --back2: rgba(44, 123, 180, 0.5);
+  --foredark: rgb(90, 93, 96);
+	--forelight: rgb(255, 255, 255);
+	--border: rgb(99, 121, 149);
+	--borderlight: hsl(0,0%,33%);
+	--shadow: rgb(69, 148, 166);
+	--zebra: rgb(209, 235, 238);
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 30px var(--shadow);
+	border-collapse: collapse;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+	color: var(--back);
+	font-size: .85rem;
+}
+
+tr:first-child th {
+	background-color: var(--back);
+	color: var(--forelight);
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+}
+
+th {
+	background-color: var(--back2);
+}
+
+td {
+	text-align: center;
+}
+
+.text-column {
+	text-align: left;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+
+tfoot {
+    font-weight: bold;
+    color: var(--zebra);
+    background-color: var(--back)
+  }
+
+  h1 { font-family: Ubuntu; 
+	font-size: 24px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 26.4px; } 
+
+	h3 { font-family: Ubuntu; 
+		font-size: 14px; 
+		font-style: normal; 
+		font-variant: normal; 
+		font-weight: 700; 
+		line-height: 15.4px; } 
+	
+	p { font-family: Ubuntu; 
+		font-size: 14px; 
+		font-style: normal; 
+		font-variant: normal; 
+		font-weight: 400; 
+		line-height: 20px; } 
+	
+	blockquote { font-family: Ubuntu; 
+		font-size: 21px; 
+		font-style: normal; 
+		font-variant: normal; 
+		font-weight: 400; 
+		line-height: 30px; } 
+	
+	pre { font-family: Ubuntu; 
+		font-size: 13px; 
+		font-style: normal; 
+		font-variant: normal; 
+		font-weight: 400;
+		 line-height: 18.5714px; }
+
+tr, th, td, caption {
+	 font-family: Ubuntu, sans-serif;
+	 font-size: 2vw; 
+}
