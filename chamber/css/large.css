@@ -67,23 +67,24 @@
     margin: 5px;
     position: relative;
     display: inline-block;
+    font-size: 2vw;
     text-align: center;
     color: var(--secondary-color);
 }
 
-.container div:nth-of-type(2) .img-weather{
-    width: 50%;
+.container div:nth-of-type(2) figure #weather-icon{
+    width: 40%;
     position: absolute;
-    top: 20px;
-    left: 10px;
+    top: calc(1rem + 3.8vw);
+    left: 10px; 
 }
 
 .container div:nth-of-type(2) .temp{
     width: 40%;
     position: absolute;
-    top: 1vw;
+    top:  calc(1rem + 3.6vw);
     right: 1vw;
-    font-size: 2.5vw;
+    font-size: 2.8vw;
     color: white;
     color: var(--secondary-color);
 }
@@ -91,16 +92,16 @@
 .container div:nth-of-type(2) .cloudy{
     width: 60%;
     position: absolute;
-    top: 10vw;
+    top: calc(1rem + 10vw);
     left: 5vw;
-    font-size: 1.5vw;
+    font-size: 1.6vw;
     font-weight: bold;
     color: var(--secondary-color);
 }
 .container div:nth-of-type(2) .wind{
     width: 80%;
     position: absolute;
-    top: 12vw;
+    top: calc(1rem + 11vw);
     left: 3vw;
     color: var(--secondary-color);
     font-weight: 600;
@@ -109,7 +110,7 @@
 .container div:nth-of-type(2) .wind-ch{
     width: 80%;
     position: absolute;
-    top: 13.5vw;
+    top: calc(1rem + 13.5vw);
     left: 2.2vw;
     color: var(--secondary-color);
     font-weight: 600;

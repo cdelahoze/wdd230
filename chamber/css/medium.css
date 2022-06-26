@@ -68,24 +68,25 @@
     margin-bottom: 5px;
     margin-left: 5px;
     position: relative;
+    font-size: 2.5vw;
     display: inline-block;
     text-align: center;
     color: var(--secondary-color);
 }
 
-.container div:nth-of-type(2) .img-weather{
+.container div:nth-of-type(2)  figure #weather-icon{
   width: 40%;
   position: absolute;
-  top: 20px;
-  left: 10px;
+  top: calc(1rem + 4vh);
+  left: 1vw;
 }
 
 .container div:nth-of-type(2) .temp{
   width: 40%;
   position: absolute;
-  top: 5%;
-  right: 10%;
-  font-size: 4vw;
+  top:  calc(1rem + 4vh);
+  right: 2vw;
+  font-size: 3.5vw;
   color:  var(--secondary-color);
   font-weight: 600;
   -webkit-text-stroke: 1px var(--secondary-color);
@@ -95,17 +96,17 @@
 .container div:nth-of-type(2) .cloudy{
   width: 60%;
   position: absolute;
-  top: 40%;
-  left: 40%;
-  font-size: 2.2vw;
+  top: calc(1rem + 18vh);
+  left: 6vw;
+  font-size: 2.5vw;
   font-weight: 800;
   color:  var(--secondary-color);
 }
 .container div:nth-of-type(2) .wind{
   width: 80%;
   position: absolute;
-  top: 60%;
-  left: 25%;
+  top: calc(1rem + 20vh);
+  left: 2.5vw;
   color:  var(--secondary-color);
   font-size: 1.5vw;
   font-weight: 600;
@@ -113,8 +114,8 @@
 .container div:nth-of-type(2) .wind-ch{
   width: 80%;
   position: absolute;
-  top: 70%;
-  left: 20%;
+  top: calc(1rem + 24vh);
+  left: 2.5vw;
   color:  var(--secondary-color);
   font-size: 1.5vw;
   font-weight: 600;
