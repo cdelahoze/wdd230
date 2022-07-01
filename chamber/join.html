@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WDD 230 | Join Us!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="This page has been designed as part of my learning. 
+    This description is temporary while we develop it."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="images/favicon.ico" rel="icon"/>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="logo-image"><img class = img-log src="images/logo-ccf-t.webp"  alt= "logo of chamber"></div>
+          <div class="chamber">
+            <h1>Facatativa</h1>
+            <h2>Chamber of Commerce</h2>
+          </div>
+          <div class="top-nav">
+            <nav class="topnav" id="myTopnav">
+              <a href="index.html">Home</a>
+              <a href="discovery.html">Discover</a>
+              <a href="directory.html">Directory</a>
+              <a href="join.html">Join</a>
+              <a href="typography.html">Typography</a>
+              <a href="javascript:void(0);" class="icon" id="demo">
+               <span class="material-symbols-outlined">menu</span>
+              <i class="fa fa-bars"></i></a>
+            </nav>
+          </div>
+          <div class="social-red">
+            <a href="https://www.linkedin.com/in/cristian-mois%C3%A9s-de-la-hoz-escorcia-473b8b27" target="_blank"><img class="img-red"
+            src="https://cdn.glitch.com/6b74ab6b-1c5f-41a2-8638-a988ff11f71c%2Flinkedin.png?v=1620684395086" alt="linkedin link"></a>
+            <a href="https://web.facebook.com/cristian.moises.35/" target="_blank"><img class="img-red"
+              src="https://cdn.glitch.com/6b74ab6b-1c5f-41a2-8638-a988ff11f71c%2Ffacebook.png?v=1620684438434"
+              alt="facebook link"></a>
+          </div>
+      </div>
+      <span id="update2"></span>
+      <p id = "banner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    </header>
+    
+    
+      <main>
+          <form method="get" action="thankyou.html">
+              <fieldset >
+                  <legend>Applicant Information</legend>
+                  <label class="top">First Name* <input type="text" name="fname" required></label> 
+                  <label class="top">Last Name* <input type="text" name="lname" required></label> 
+                  <label class="top">Cell Phone <input type="tel" name="phone" placeholder="1235551234"></label> 
+                  <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                  <label class="top">Website <input type="url" name="url" placeholder="http://"></label> 
+              </fieldset>
+
+              <fieldset>
+              <legend>Business information</legend>
+                  <label class="top">Business Name*<input  id="business" type="text" name="business"  required></label>
+                  <label class="top">Business Adress<input  id="businessAdress" type="text" name="businessAdress"  ></label>
+                  <label class="top">Business Position
+                    <select name="position" id="position">
+                        <option value="">Please Select</option>
+                    <option value="Business Professional">Business Professional</option>
+                    <option value="Legal representative">Legal representative</option>   
+                    <option value="Manager">Manager</option> 
+                    <option value="President">President</option>
+                    <option value="Partner">Partner</option>
+                    <option value="Secretary">Secretary</option> 
+                    <option value="Other">other</option> 
+                    </select> 
+                  </label>
+                  <label class="top">Current Date<input  id="current-date" type="date" name="current-date"></label>
+                  <label class="top1">Business Description<textarea id="description" name="description" placeholder="Write something.." ></textarea></label>
+
+              </fieldset>
+              
+              <fieldset>
+                <legend>Membership options</legend>
+                <table>
+                  <thead>
+                      <tr>
+                          <th colspan="6" scope="colgroup">Subscription Type Membership</th>
+                      </tr>
+                      <tr>
+                          <th scope="col">Benefist</th>
+                          <th scope="col">Non-profit</th>
+                          <th scope="col">Bronze</th>
+                          <th scope="col">Silver</th>
+                          <th scope="col">Gold</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td class="text-column">Inclusion in our business directory</td>
+                          <td>✅</td>	 
+                          <td>✅</td>	 
+                          <td>✅</td>	 
+                          <td>✅</td>	 
+                      </tr>
+                      <tr>
+                          <td class="text-column">Publication of events in the online calendar</td>
+                          <td>✅</td>
+                          <td>✅</td>
+                          <td>✅</td>
+                          <td>✅</td>         
+                      </tr>
+                      <tr>
+                          <td class="text-column">Publication in our monthly newsletter</td>
+                          <td>✅</td>
+                          <td>✅</td>
+                          <td>✅</td>
+                          <td>✅</td>        
+                      </tr>
+                      <tr>
+                          <td class="text-column">Specialized services for macro sectors</td>
+                          <td>--</td>
+                          <td>✅</td>
+                          <td>✅</td>
+                          <td>✅</td>    
+                      </tr>
+                      <tr>
+                          <td class="text-column">Training in business strengthening</td>
+                          <td>--</td>
+                          <td>✅</td>
+                          <td>✅</td>
+                          <td>✅</td>               
+                      </tr>
+                      <tr>
+                      <td class="text-column">General advice on business development</td>
+                          <td>--</td>
+                          <td>✅</td>
+                          <td>✅</td>
+                          <td>✅</td>    
+                      </tr>
+                      <tr>
+                      <td class="text-column">Specialized advice and consultancies</td>
+                          <td>--</td>
+                          <td>--</td>
+                          <td>✅</td>
+                          <td>✅</td>    
+                      </tr>
+                      <tr>
+                      <td class="text-column">Fairs, business roundtables, networking spaces, <br> and commercial appointments</td>
+                          <td>--</td>
+                          <td>--</td>
+                          <td>✅</td>
+                          <td>✅</td>
+                      </tr>
+                      <tr>
+                      <td class="text-column">Studies and research, commercial or business information</td>
+                          <td>--</td>
+                          <td>--</td>
+                          <td>✅</td>
+                          <td>✅</td>
+                      </tr>
+                      <tr>
+                      <td class="text-column">Advisory service on arbitration and conflict resolution</td>
+                          <td>--</td>
+                          <td>--</td>
+                          <td>--</td>
+                          <td>✅</td>
+                      </tr>
+                      <tr>
+                      <td class="text-column">International Markets and Cooperation for companies</td>
+                          <td>--</td>
+                          <td>--</td>
+                          <td>--</td>
+                          <td>✅</td>
+                      </tr>
+                      <tr>
+                      <td class="text-column">Databases and business information</td>
+                          <td>--</td>
+                          <td>--</td>
+                          <td>--</td>
+                          <td>✅</td>
+                      </tr>
+                      <tr>
+                  </tbody>
+                  <tfoot>
+                      <tr>
+                          <td>Annual Costs</td>					 
+                          <td><label><input type="radio" name="audience" value="Non Profit Membership"> Free</label></td>
+                          <td><label><input type="radio" name="audience" value="Bronze Membership"> US $200</label></td>
+                          <td><label><input type="radio" name="audience" value="Silver Membership"> US $300</label></td>
+                          <td><label><input type="radio" name="audience" value="Gold Membership"> US $500</label></td>
+                      </tr>
+                    </tfoot>
+              </table>
+            </fieldset>
+           <input type="submit" value="Propose My Course" class="submitBtn">
+          </form>
+        </main>
+
+
+
+
+
+
+
+    <footer>
+      <img class= logo-footer src="images/logo-ccf-t.webp"  alt= "logo image logo-footer">
+        <div class="contact">
+          <h1>Facatativa Chamber of Commerce</h1>
+          <h2>Calle 23C #70 50</h2>
+          <h2>Facatativá, Cundinamarca</h2>
+        </div>
+          <p class="info-contact">info@facacc.org
+            <br>+(57) 301-494-1963
+            <br>📍Location Map
+          </p>
+        <p class="copyright">
+          &copy; <span id="year"></span> Facatativa Chamber | Cristian De La Hoz Escorcia | WD 230 Project | Last Modification: <span id= "update" ></span>
+        </p>
+        <p class="copyright2">
+          &copy; <span id="year1"></span>Facatativa Chamber <br class="name"> Cristian De La Hoz Escorcia <br> WD 230 Project <br> Last Modification: <span id= "update3" ></span>
+        </p>
+    </footer>
+    <script src="js/js.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/thankyou.js"></script>
+   </body>
+</html>

@@ -225,7 +225,7 @@ font-size: 2vw;
 }
 
 main{
-  display: flex;
+
   margin: 10px;
   justify-content: center;
 }
@@ -587,7 +587,7 @@ color: var(--secondary-color);
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: repeat(13, 1fr);
   padding-bottom: 15px;
-  height: 390vw;
+  height: 470vw;
   width: 100%;
 }
 
@@ -618,7 +618,7 @@ color: var(--secondary-color);
 .box-paragraph {
   grid-column: 3 /8;
   grid-row: 2 / 3;
-  padding-top: 4em;
+  padding-top: 5em;
   justify-self: start;
   width: 100%;
 }
@@ -711,4 +711,302 @@ color: var(--secondary-color);
   width: 100%;
 }
 
+
 }
+
+
+/* join us css */
+
+
+input[class=top], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  font-family: var(--heading-font);
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-family: var(--heading-font);
+}
+
+input[class=sbs] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  font-family: var(--heading-font);
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+form fieldset {
+  margin: 2rem 0; 
+  border: 1px solid #445ba9;
+  border-radius: 10px; 
+  padding: .5rem 296;
+}
+
+form legend {
+  color: #445ca9; 
+  margin: 0 1rem; 
+  padding: 0 .5rem;
+}
+
+form label.sbs { 
+  display: block; 
+  padding: .75rem 0; 
+  color: rgb(85, 85, 85);
+}
+
+form input.submitBtn { 
+  border: none; 
+  background-color: #9c2c13; 
+  color: white; 
+  border-radius: 1rem; 
+  padding: .75rem 1.5rem; 
+  margin: 0 0 2rem 2%; 
+  width: 96%; 
+  max-width: 20rem;
+}
+
+form label.top input:required { 
+  border-left: red solid 6px;
+}
+
+form label.top input:required:valid { 
+  border-left: green solid 6px;
+}
+
+.top1{
+  width: 100%;
+  height: 150px;
+  align-items: center;
+  padding-top: 1rem; 
+  color: #9c2c13; 
+  font-size: 1rem;
+  padding-bottom: 1rem; 
+  padding-left: 2rem;
+  font-family: var(--heading-font);
+
+}
+
+form label.top1 textarea {
+
+  font-size: 1em;
+  border: solid 1px #999;
+  border-radius: 10px;
+  padding: 15px 0px 15px 5px;
+  color: #555;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: var(--heading-font);
+
+
+} 
+
+#subject{
+  height:200px;
+  width: 100%;
+  align-items: center;
+
+}
+
+
+
+/* Clear floats after the columns */
+.top:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 40.5em) {
+   input[type=submit] {
+    width: 50%;
+    margin-top: 5px;
+  }
+
+
+  form label.top, form div { 
+    display: block; 
+    padding-top: 1rem; 
+    color: #9c2c13; 
+    font-size: 1rem;
+    padding-bottom: 1rem; 
+    padding-left: 2rem;
+    font-family: var(--heading-font);
+  
+  }
+  
+  form label.top input, form label.top select, form label.top textarea {
+    display: block;
+    font-size: 1.2em;
+    border: solid 1px #999;
+    border-radius: 10px;
+    padding: 15px 10px 15px 5px;
+    color: #555;
+    width: 95%;
+    max-width: 95%;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-family: var(--heading-font);
+  } 
+
+}
+
+/* table */
+
+:root {
+	--back: rgb(35, 65, 131);
+  --back2: rgba(44, 123, 180, 0.5);
+  --foredark: rgb(90, 93, 96);
+	--forelight: rgb(255, 255, 255);
+	--border: rgb(99, 121, 149);
+	--borderlight: hsl(0,0%,33%);
+	--shadow: rgb(69, 148, 166);
+	--zebra: rgb(209, 235, 238);
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 30px var(--shadow);
+	border-collapse: collapse;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+	color: var(--back);
+	font-size: .85rem;
+}
+
+tr:first-child th {
+	background-color: var(--back);
+	color: var(--forelight);
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid var(--borderlight);
+}
+
+th {
+	background-color: var(--back2);
+}
+
+td {
+	text-align: center;
+}
+
+.text-column {
+	text-align: left;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+
+tfoot {
+    font-weight: bold;
+    color: var(--zebra);
+    background-color: var(--back)
+  }
+
+  h1 {  
+	font-size: 24px; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: 700; 
+	line-height: 26.4px; } 
+
+	h3 {  
+		font-size: 14px; 
+		font-style: normal; 
+		font-variant: normal; 
+		font-weight: 700; 
+		line-height: 15.4px; } 
+	
+	p {  
+		font-size: 14px; 
+		font-style: normal; 
+		font-variant: normal; 
+		font-weight: 400; 
+		line-height: 20px; } 
+	
+	blockquote {  
+		font-size: 21px; 
+		font-style: normal; 
+		font-variant: normal; 
+		font-weight: 400; 
+		line-height: 30px; } 
+	
+	pre { 
+		font-size: 13px; 
+		font-style: normal; 
+		font-variant: normal; 
+		font-weight: 400;
+		 line-height: 18.5714px; }
+
+tr, th, td, caption {
+	 font-family: var(--heading-font);
+	 font-size: 1.5vw; 
+}
+
+.thankyou-message{   
+display: block;
+font-size: 1.2em;
+border: solid 1px rgb(44, 99, 141);
+border-radius: 10px;
+padding: 15px 10px 15px 5px;
+color: #555;
+width: 100%;
+max-width: 100%;
+background-color: rgb(137, 199, 221);
+font-family: var(--heading-font);
+}
+
+.thankyou-message h3{ 
+  display: block; 
+  padding-top: 1rem; 
+  color: #28139c; 
+  font-size: 2.5vw;
+  padding-bottom: 2rem; 
+  padding-left: 2rem;
+  font-family: var(--heading-font);
+
+}
+
+.thankyou-message p { 
+ 
+  padding-top: 1rem; 
+  color: #28139c; 
+  font-size: 1rem;
+  padding-bottom: 2rem; 
+  padding-left: 2rem;
+  font-family: var(--heading-font);
+  font-weight: bold;
+
+}
+
+
+.thankyou-message p span{ 
+
+  padding-top: 1rem; 
+  color: #092d70; 
+  font-size: 0.8rem;
+  padding-bottom: 2rem; 
+  padding-left: 2rem;
+  font-family: var(--heading-font);
+
+}
+

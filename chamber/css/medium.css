@@ -523,6 +523,14 @@ padding-left: 1.6em;
 #img-box{
   width: 100%;
 }
+
+.box_join {
+  box-sizing: border-box;
+  max-width: 80%;
+  text-align:center;
+  margin: 0 auto;
+  padding: 1em;
+}
       
 }
     
