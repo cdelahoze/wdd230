@@ -5,140 +5,160 @@
 	"address": 	"Carrera 3 # 21- 40, Mosquera, Cundinamarca, Colombia",	
 	"phone":	"3207919016",	
 	"name": 	"Centro de Estética Erikim Jeim",	
-	"website": 	"https://erikim-jeim.negocio.site"	
+	"website": 	"https://erikim-jeim.negocio.site",
+	"webname": 	"https://erikim-jeim"
 },   			
 {    			
 	"imageurl": 	"https://cdelahoze.github.io/wdd230/images_directory/logo-bauxsas-final-plano.webp",	
 	"address": 	"TRANSVERSAL DE OCCIDENTE EMPRESARIAL DE, FUNZA, CUNDINAMARCA",	
 	"phone":	"6018223803",	
 	"name": 	"Baux Chemical S.A.S.",	
-	"website": 	"https://www.bauxchemical.com"	
+	"website": 	"https://www.bauxchemical.com",
+	"webname": 	"https://www.bauxchemical.com"		
 },   			
 {    			
 	"imageurl": 	"https://cdelahoze.github.io/wdd230/images_directory/chico-pizza.webp",	
 	"address": 	"Cra. 5 Nº 2-32 Barrio San Cayetano , Villeta",	
 	"phone":	"6018446406",	
 	"name": 	"Chico Pizza - pizza, sabor, variedad y calidad",	
-	"website": 	"https://pizza.guiabbb.co/Sasaima/#google_vignette"	
+	"website": 	"https://pizza.guiabbb.co/Sasaima/#google_vignette",
+	"webname": 	"https://pizza.guiabbb.co"	
 },   			
 {    			
 	"imageurl": 	"https://cdelahoze.github.io/wdd230/images_directory/corcolombia.webp",	
 	"address": 	"Calle 12 13 123, Facatativá, Cundinamarca, Colombia",	
 	"phone":	"6018934453",	
 	"name": 	"CorColombia",	
-	"website": 	"https://www.corcolombia.com"	
+	"website": 	"https://www.corcolombia.com",
+	"webname": 	"https://www.corcolombia.com"		
 },   			
 {    			
 	"imageurl": 	"https://cdelahoze.github.io/wdd230/images_directory/franar-colombia.webp",	
 	"address": 	"Km 2,3 vía Madrid, vereda los Árboles, Parque Industrial Santa Cruz, bodega 9. Madrid – Cundinamarca. Colomb",	
 	"phone":	"6018985388",	
 	"name": 	"Franar Colombia S.A.S.",	
-	"website": 	"www.franarcolombia.com"	
+	"website": 	"https://www.franarcolombia.com",
+	"webname": 	"https://www.franarcolombia.com"		
 },   			
 {    			
 	"imageurl": 	"https://cdelahoze.github.io/wdd230/images_directory/grupo-sasa.webp",	
 	"address": 	"Cra. 5 Este No. 20 69 BG 10, Facatativá, Cundinamarca",	
 	"phone":	"3141892345",	
 	"name": 	"Grupo Sasa",	
-	"website": 	"https://www.lasempresas.com.co/facatativa/grupo-sasa-sas/"	
+	"website": 	"https://www.lasempresas.com.co/facatativa/grupo-sasa-sas/",
+	"webname": 	"https://www.grupo-sasa-sas"		
 },   			
 {    			
 	"imageurl": 	"https://cdelahoze.github.io/wdd230/images_directory/ingenium.webp",	
 	"address": 	"Av troncal de occidente Nro. 1-59 este Bodega 25 El portal centro logístico y empresarial",	
 	"phone":	"6018276178",	
 	"name": 	"Ingenium Ingeniería y Consultoría Ltda",	
-	"website": 	"http://www.ingenium.com.co"	
+	"website": 	"http://www.ingenium.com.co",
+	"webname": 	"http://www.ingenium.com.co"	
 },   			
 {    			
 	"imageurl": 	"https://cdelahoze.github.io/wdd230/images_directory/inject-tecnologia.webp",	
 	"address": 	"Calle 8 # 4 - 02 Facatativá, Cundinamarca",	
 	"phone":	"3144684165",	
 	"name": 	"Inject Tecnologia",	
-	"website": 	"https://www.celuguia.com/inicio/ad/directorio-celular/inject-tecnologia--facatativa---cundinamarca-871145.html"	
+	"website": 	"https://www.celuguia.com/inicio/ad/directorio-celular/inject-tecnologia--facatativa---cundinamarca-871145.html",
+	"webname": 	"https://www.injecttecnologia"
 },   			
 {    			
 	"imageurl": 	"https://cdelahoze.github.io/wdd230/images_directory/kaisen.webp",	
 	"address": 	"Vereda Prado Santa Marta, sector Sagrado, Facatativá – C/marca",	
 	"phone":	"6018901010",	
 	"name": 	"Kaizen Ingenieros",	
-	"website": 	"www.kaizeningenieros.com"	
+	"website": 	"https://www.kaizeningenieros.com",
+	"webname": 	"https://www.kaizeningenieros.com"		
 },   			
 {    			
 	"imageurl": 	"https://cdelahoze.github.io/wdd230/images_directory/launion.webp",	
 	"address": 	"CALLE 4 4 19, SUBACHOQUE, CUNDINAMARCA",	
 	"phone":	"3214482364",	
 	"name": 	"Comercializadora la unión c2s SAS",	
-	"website": 	"https://empresite.eleconomistaamerica.co/COMERCIALIZADORA-UNION-C2S-SAS.html"	
+	"website": 	"https://empresite.eleconomistaamerica.co/COMERCIALIZADORA-UNION-C2S-SAS.html",
+	"webname": 	"https://comercializadora-union.html"	
 },   			
 {    			
 	"imageurl": 	"https://cdelahoze.github.io/wdd230/images_directory/logo-redes.webp",	
 	"address": 	"Calle 25 16 114, Facatativá, Cundinamarca",	
 	"phone":	"6018901321",	
 	"name": 	"Söt Chocolate Shop",	
-	"website": 	"www.sotchocolate.com"	
+	"website": 	"https://www.sotchocolate.com",
+	"webname": 	"https://www.sotchocolate.com"	
 },   			
 {    			
 	"imageurl": 	"https://cdelahoze.github.io/wdd230/images_directory/mariposa-azul.webp",	
 	"address": 	"Calle 10 4 59, Facatativá, Cundinamarca",	
 	"phone":	"3152467808",	
 	"name": 	"Mariposa Azul",	
-	"website": 	"www.mariposaazul.net"	
+	"website": 	"https://www.mariposaazul.net",
+	"webname": 	"https://www.mariposaazul.net"		
 },   			
 {    			
 	"imageurl": 	"https://cdelahoze.github.io/wdd230/images_directory/monserrate.webp",	
 	"address": 	"Calle 8 Nº 3-40, Facatativá, Cundinamarca",	
 	"phone":	"6018426002",	
 	"name": 	"Hotel Monserrate",	
-	"website": 	"https://www.tripadvisor.co/Hotel_Review-g1222953-d7594087-Reviews-Hotel_Monserrate-Facatativa_Cundinamarca_Department.html"	
+	"website": 	"https://www.tripadvisor.co/Hotel_Review-g1222953-d7594087-Reviews-Hotel_Monserrate-Facatativa_Cundinamarca_Department.html",
+	"webname": 	"https://Reviews-Hotel_Monserrate"	
 },   			
 {    			
 	"imageurl": 	"https://cdelahoze.github.io/wdd230/images_directory/museo_panela.webp",	
 	"address": 	"Carretera central kilómetro 1 vía Guaduas",	
 	"phone":	"3134373482",	
 	"name": 	"Museo de la panela",	
-	"website": 	"https://colombia.worldplaces.me/review/93328133-museo-de-la-panela.html"	
+	"website": 	"https://colombia.worldplaces.me/review/93328133-museo-de-la-panela.html",
+	"webname": 	"https://museo-de-la-panela.html"		
 },   			
 {    			
 	"imageurl": 	"https://cdelahoze.github.io/wdd230/images_directory/nubal.webp",	
 	"address": 	"Parque Industrial San Jorge Bodega 100 Mosquera",	
 	"phone":	"6018295516",	
 	"name": 	"Nubal S.A.",	
-	"website": 	"www.nucleosbalanceados.com"	
+	"website": 	"https://www.nucleosbalanceados.com",
+	"webname": 	"https://www.nucleosbalanceados.com"		
 },   			
 {    			
 	"imageurl": 	"https://cdelahoze.github.io/wdd230/images_directory/obsesion-valle.webp",	
 	"address": 	"Carrera 10 7 120, Facatativá, Cundinamarca",	
 	"phone":	"6018427928",	
 	"name": 	"Grupo Obsesión -Parranda Vallenata-",	
-	"website": 	"www.obsesionvallenata.com"	
+	"website": 	"https://www.obsesionvallenata.com",
+	"webname": 	"https://www.obsesionvallenata.com"		
 },   			
 {    			
 	"imageurl": 	"https://cdelahoze.github.io/wdd230/images_directory/oral.webp",	
 	"address": 	" CARRERA 7 7 111, FACATATIVA, CUNDINAMARCA",	
 	"phone":	"3133768493",	
 	"name": 	"Orales Morales S.A.S",	
-	"website": 	"https://empresite.eleconomistaamerica.co/ORALES-MORALES-SAS.html"	
+	"website": 	"https://empresite.eleconomistaamerica.co/ORALES-MORALES-SAS.html",
+	"webname": 	"https://orales-morales-sas.html"		
 },   			
 {    			
 	"imageurl": 	"https://cdelahoze.github.io/wdd230/images_directory/pachoaventura.webp",	
 	"address": 	"Cra 40A 7 BIS 05, Pacho, Cundinamarca",	
 	"phone":	"5732148556",	
 	"name": 	"Pacho Aventura Natural",	
-	"website": 	"","http://www.facebook.com/PachoAventuraNatural/\n":""	
+	"website": 	"http://www.facebook.com/PachoAventuraNatural/",
+	"webname": 	"http://PachoAventuraNatural"		
 },   			
 {    			
 	"imageurl": 	"https://cdelahoze.github.io/wdd230/images_directory/pack-film.webp",	
 	"address": 	"AUTOPISTA BOGOTA MEDELLIN KM 7 LOTE 92 B, FUNZA, CUNDINAMARCA",	
 	"phone":	"6017467706",	
 	"name": 	"Envases Plásticos PackFilm Ltda",	
-	"website": 	"https://empresite.eleconomistaamerica.co/ENVASES-PLASTICOS-PACKFILM-LTDA.html"	
+	"website": 	"https://empresite.eleconomistaamerica.co/ENVASES-PLASTICOS-PACKFILM-LTDA.html",
+	"webname": 	"https://envases-plasticos-packfilm.html"		
 },   			
 {    			
 	"imageurl": 	"https://cdelahoze.github.io/wdd230/images_directory/soluprac.webp",	
 	"address": 	"CALLE 20 16 A 79 URBANIZACION MONACO, BOJACA, CUNDINAMARCA",	
 	"phone":	"3115306591",	
 	"name": 	"Solupract S.A.S.",	
-	"website": 	"https://co.linkedin.com/in/solupract-s-a-s-3967a218b"	
+	"website": 	"https://co.linkedin.com/in/solupract-s-a-s-3967a218b",
+	"webname": 	"https://solupract-sas"		
     }  			
   ]    			
 }       			

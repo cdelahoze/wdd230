@@ -1,6 +1,7 @@
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("div.cards");
+const gridbutton = document.querySelector ("#grid");
+const listbutton = document.querySelector ("#list");
+const display = document.querySelector ("div.cards");
+display.classList.add("grid");
 
 // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 
@@ -38,7 +39,7 @@ function displayDirectory(directory) {
   let h2 = document.createElement('p');
   let h3 = document.createElement('p');
   let title1 = document.createElement('p');
-  let title2 = document.createElement('p');
+  let title2 = document.createElement('a');
   let portrait = document.createElement('img');
   
 
@@ -49,6 +50,8 @@ function displayDirectory(directory) {
   h3.textContent = directory.address;
   title1.textContent = directory.phone;
   title2.textContent = directory.website;
+
+  title2.setAttribute('href',  directory.website)
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
 
