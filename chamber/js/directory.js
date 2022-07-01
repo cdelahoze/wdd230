@@ -49,7 +49,7 @@ function displayDirectory(directory) {
   h2.textContent = directory.name;
   h3.textContent = directory.address;
   title1.textContent = directory.phone;
-  title2.textContent = directory.website;
+  title2.textContent = directory.webname;
 
   title2.setAttribute('href',  directory.website)
 
