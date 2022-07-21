@@ -1,0 +1,10 @@
+@media only screen and (max-width: 32.5em) {
+
+main {
+    display: flex;
+    flex-direction: column;
+    }
+
+}
+
+  

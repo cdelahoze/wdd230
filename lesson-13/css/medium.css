@@ -1,0 +1,21 @@
+@media only screen and (min-width: 38em) {
+
+main {
+    display: flex;
+    flex-direction: column;
+    }
+
+
+/* Slides */
+
+.mySlides {
+    display:none;
+    width:100%
+  }
+  
+
+
+
+}
+
+  
